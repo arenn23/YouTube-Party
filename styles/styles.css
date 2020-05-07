@@ -1,0 +1,55 @@
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+.jumbotron{
+    background-color: #FF4136;
+    height: 100px;
+    margin-bottom:0px;
+}
+
+h1{
+    font-weight:bold;
+    color:black;
+    padding-left:5rem
+}
+
+span{
+    color: white;
+}
+
+#party{
+    color: white
+}
+
+#playDiv{
+    background-color:white;
+}
+
+#partyDiv{
+    background-color: red
+}
+
+#blackBar{
+    background-color:black;
+    height:30px;
+}
+
+i {
+    color:white;
+    
+}
+
+a {
+    color:white;
+}
+
+a:hover {
+    color:white;
+    font-weight:bold;
+  }
+
+  #searchButton{
+      float:right;
+      margin-top:1rem;
+  }

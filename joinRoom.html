@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+    <link rel="stylesheet" href="styles/styles.css" />
+    
+    <title>YouTube Party</title>
+</head>
+
+<body>
+    <header>
+        <div class = "row">
+            <div class = "col jumbotron jumbtron-fluid">
+                <h1>YouTube <span>Party</span></h1>
+            </div>
+        </div>
+        <div class ="row" id="blackBar">
+            <div class = "col-8">
+            </div>
+            <div class="col">
+                <ul class = "navbar-nav">
+                <li class="nav-item active"><a class ="nav-link" href="index.html"><i class="fa fa-home fa-lg"></i></i>Home </a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <div class = "mt-5 container">
+        <div class ="row">
+            <div class = "col d-flex justify-content-center">
+                <form>
+                    <div class="form-group">
+                        <label sytle="font-weight:bold;" for="roomName">Room Name</label>
+                        <input type="roomName" class="form-control" id="roomName" placeholder="Enter Room Name">
+                      </div>
+                      <div class="form-group">
+                        <label for="password">Password</label>
+                        <input type="password" class="form-control" id="password" placeholder="Enter Password">
+                      </div>
+                        <a type="button" class=" btn btn-light" href="PartyRoom.html">Join a Room</a>
+                        <a type="button" class="ml-4 btn btn-danger" href="index.html">Cancel</a>
+                </form>
+            </div>
+        </div>
+    </div>

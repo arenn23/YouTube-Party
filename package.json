@@ -1,0 +1,20 @@
+{
+  "name": "youtube-party",
+  "version": "1.0.0",
+  "description": "YouTube Party: A Better Way To Party",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run lite",
+    "lite": "lite-server"
+  },
+  "author": "Alan Renner, Hao Tran, Tim, Liu",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.4.1",
+    "font-awesome": "^4.7.0"
+  },
+  "devDependencies": {
+    "lite-server": "^2.3.0"
+  }
+}
