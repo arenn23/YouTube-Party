@@ -53,3 +53,15 @@ a:hover {
       float:right;
       margin-top:1rem;
   }
+
+  .site-footer {
+    background-image: linear-gradient(white, #FF4136);
+    padding: 20px 0px; 
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.navbar {
+    padding: 0px;
+}
