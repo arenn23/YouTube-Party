@@ -16,17 +16,24 @@
 
 <body>
 
-    <header>
-        <div class="row">
-            <div class="col jumbotron jumbtron-fluid">
-                <h1>YouTube <span>Party</span></h1>
+    <header class="jumbotron jumbtron-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-2">
+                    <img src="img/templogo.jpg" class="img-fluid img-thumbnail mx-auto" />
+                </div>
+                <div class="col d-flex align-items-center">
+                    <h1>YouTube <span>Party</span></h1>
+                </div>
             </div>
-        </div>
-        <div class="row" id="blackBar">
-            <div class="col-8">
-            </div>
+
         </div>
     </header>
+
+    <div class="row" id="blackBar">
+        <div class="col"></div>
+    </div>
+
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <a class="navbar-brand" href="#"></a>
@@ -37,7 +44,7 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#"><i class="fa fa-home fa-lg"></i>Home <span
+                    <a class="nav-link" href="#"><i class="fa fa-headphones"></i> Home<span
                             class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
@@ -46,22 +53,16 @@
                 <li class="nav-item">
                     <a class="nav-link" href="#">View Plans</a>
                 </li>
-
             </ul>
-
-            <ul class="class navbar-nav ml-auto">
-
+        
+            <ul class="navbar-nav ml-auto">
                 <li class="navbar-text">
                     <a class="btn" href="createAccount.html"><i class="fa fa-user-plus"></i> Sign Up</a>
                 </li>
-
                 <li class="navbar-text">
                     <a class="btn" href="login.html"><i class="fa fa-sign-in"></i> Login</a>
                 </li>
-
             </ul>
-
-
         </div>
     </nav>
 
@@ -97,6 +98,12 @@
             </div>
         </div>
     </footer>
+
+
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
 
 </body>
 

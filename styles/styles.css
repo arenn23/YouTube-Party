@@ -4,14 +4,13 @@ body {
 
 .jumbotron{
     background-color: #FF4136;
-    height: 100px;
+
     margin-bottom:0px;
 }
 
 h1{
     font-weight:bold;
     color:black;
-    padding-left:5rem
 }
 
 span{
