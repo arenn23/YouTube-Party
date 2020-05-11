@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-   
+
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
@@ -10,33 +10,71 @@
     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
     <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
     <link rel="stylesheet" href="styles/styles.css" />
-    
+
     <title>YouTube Party</title>
 </head>
 
 <body>
 
-    <header>
-        <div class = "row">
-            <div class = "col jumbotron jumbtron-fluid">
-                <h1>YouTube <span>Party</span></h1>
+    <header class="jumbotron jumbtron-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-2">
+                    <img src="img/templogo.jpg" class="img-fluid img-thumbnail mx-auto" />
+                </div>
+                <div class="col d-flex align-items-center">
+                    <h1>YouTube <span>Party</span></h1>
+                </div>
             </div>
-        </div>
-        <div class ="row" id="blackBar">
-            <div class = "col-8">
-            </div>
+
         </div>
     </header>
 
+    <div class="row" id="blackBar">
+        <div class="col"></div>
+    </div>
 
-        <div class=" mt-5 row align-items-center">
-            <div class = "col d-flex justify-content-center">
-                <h1 class="px-0">Time to Party!</h1>
-            </div>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#"><i class="fa fa-headphones"></i> Home<span
+                            class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Features</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">View Plans</a>
+                </li>
+            </ul>
+        
+            <ul class="navbar-nav ml-auto">
+                <li class="navbar-text">
+                    <a class="btn" href="createAccount.html"><i class="fa fa-user-plus"></i> Sign Up</a>
+                </li>
+                <li class="navbar-text">
+                    <a class="btn" href="login.html"><i class="fa fa-sign-in"></i> Login</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <div class=" mt-5 row align-items-center">
+        <div class="col d-flex justify-content-center">
+            <h1 class="px-0">Time to Party!</h1>
         </div>
     </div>
-    <div class = "row">
-        <div class ="col  d-flex justify-content-center">
+    </div>
+    <div class="row">
+        <div class="col  d-flex justify-content-center">
             <form>
                 <a type="button" class=" btn btn-light" href="createRoom.html">Create a Room</a>
                 <a type="button" class="ml-4 btn btn-danger" href="joinRoom.html">Join A Room</a>
@@ -44,8 +82,29 @@
         </div>
     </div>
 
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col"></div>
+                <div class="col-6 col-sm-5 text-center">
+                    <a class="btn btn-social-icon btn-instagram" href="http://instagram.com/"><i
+                            class="fa fa-instagram"></i></a>
+                    <a class="btn btn-social-icon btn-facebook" href="http://facebook.com/"><i
+                            class="fa fa-facebook"></i></a>
+                    <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i
+                            class="fa fa-twitter"></i></a>
+                </div>
+                <div class="col"></div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
 
 </body>
 
-
-
+</html>
